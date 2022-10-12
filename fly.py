@@ -39,7 +39,7 @@ arm_and_takeoff(20)
 
 vehicle.mode = VehicleMode("GUIDED")
 
-playload = {"email": "hello@gmail.com", "password": "Hello"}
+playload = {"email": "", "password": ""}
 url = "https://soraeir.herokuapp.com/login"
 r = requests.post(url, json=playload)
 data = r.json()
