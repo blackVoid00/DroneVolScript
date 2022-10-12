@@ -1,6 +1,6 @@
 import requests
 import json
-playload = {"email": "hello@gmail.com", "password": "Hello"}
+playload = {"email": "", "password": ""}
 url = "https://soraeir.herokuapp.com/login"
 r = requests.post(url, json=playload)
 # print(r.json())
